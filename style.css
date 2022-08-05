@@ -23,31 +23,74 @@ body{
     flex-direction: column;
     color: white;
     padding: 60px 68px 40px 68px;
-    /* margin: 30px 400px 30px 400px */
+    margin: 30px 400px 30px 400px
 }
 
 .form .text1 {
     display: flex;
     flex-direction: column;
+    margin-bottom: 25px;
 }
 
 .form .number {
     display: flex;
     flex-direction: column;
+    margin-bottom: 25px;
 }
 
 .form .email {
     display: flex;
     flex-direction: column;
+    margin-bottom: 25px;
 }
 
 .form .text2 {
     display: flex;
     flex-direction: column;
+    margin-bottom: 25px;
 }
 
 .form .checkbox {
     display: flex;
+    flex-direction: column;
+    margin-bottom: 25px;
+}
 
-    flex-wrap: wrap;
+.form .text3 {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+
+
+.form .submit {
+    display: flex;
+    justify-content: center;
+    height: 25px;
+}
+
+.form .submit #submit:hover {
+    background-color: whitesmoke;
+    color: grey;
+}
+
+
+
+.form .text1 #text {
+    height: 40px;
+}
+
+.form .number #number {
+    height: 40px;
+}
+
+
+
+.form .email #email {
+    height: 40px;
+}
+
+.form .text3 #text3 {
+    height: 80px;
 }
