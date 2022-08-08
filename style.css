@@ -50,6 +50,16 @@ body{
     margin-bottom: 25px;
 }
 
+.form .content #content {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 25px;
+    padding: 15px 10px 15px 10px;
+    width: 100%;
+
+}
+
+
 .form .checkbox {
     display: flex;
     flex-direction: column;
@@ -63,16 +73,25 @@ body{
     margin-top: 25px;
 }
 
-
-.form .submit {
+.form .submit  {
     display: flex;
     justify-content: center;
-    height: 25px;
+
+}
+
+
+.form .submit #submit {
+    height: 50px;
+    width: 250px;
+    border-radius: 50px;
+    background-color: #E50914;
+    color: white;
+    font-size: 15px;
 }
 
 .form .submit #submit:hover {
     background-color: whitesmoke;
-    color: grey;
+    color: black;
 }
 
 

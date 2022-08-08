@@ -7,3 +7,9 @@
 - You can see my project from the link below:
 
     https://isildakmurat.github.io/netflix-clone/
+
+<hr>
+
+## Ex:
+
+<img src="ex-gif.gif">
